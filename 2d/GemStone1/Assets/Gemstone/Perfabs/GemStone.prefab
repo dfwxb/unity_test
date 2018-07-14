@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1066512415470670}
+  m_IsPrefabParent: 1
+--- !u!1 &1066512415470670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4327455808029630}
+  - component: {fileID: 114237162231411068}
+  - component: {fileID: 65877873852445556}
+  m_Layer: 0
+  m_Name: GemStone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4327455808029630
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1066512415470670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65877873852445556
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1066512415470670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114237162231411068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1066512415470670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c1fe159e2abc7240958ae8cd5d83eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _row: 0
+  _col: 0
+  offsetX: -4.5
+  offsetY: -3
+  gemStoneBgs:
+  - {fileID: 1484571979434390, guid: 029c85ba7b4c06b4f9c4a995bf6bf92c, type: 2}
+  - {fileID: 1962914694844720, guid: c35f8ed0732b1ab4ba1efba5fda90483, type: 2}
+  - {fileID: 1227943647086708, guid: ebd0f91675d98dd45b4e04a358dd3572, type: 2}
+  - {fileID: 1130870691362456, guid: 4a24670900605c8438697d48a173a562, type: 2}
+  - {fileID: 1869538132203618, guid: 8d2af7b718cf0e8448a6f8ca2e32697c, type: 2}
+  - {fileID: 1585606641677470, guid: 5654482c20f02bd438f289789775af33, type: 2}
+  - {fileID: 1570934402941226, guid: ce4e2ca5277502446bfadf72a4d0f566, type: 2}
+  - {fileID: 1070177236176246, guid: fd4b4a56b83322343a9ec2edeeabdff2, type: 2}
+  - {fileID: 1676909484834708, guid: 0603cec9849ce274ba0d52191793382d, type: 2}
+  gemStoneType: 0
